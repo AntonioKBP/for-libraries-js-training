@@ -7,13 +7,24 @@
     <title>Image gallery</title>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.css"
+    />
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
-
+    <div class="gallery">
+      <a href="images/image1.jpg"
+        ><img src="images/thumbs/thumb1.jpg" alt="" title=""
+      /></a>
+      <a href="images/image2.jpg"
+        ><img src="images/thumbs/thumb2.jpg" alt="" title="Beautiful Image"
+      /></a>
+    </div>
     <!-- Add gallery items to this list -->
     <div class="gallery"></div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"></script>
     <script src="js/01-gallery.js" type="module"></script>
   </body>
 </html>
